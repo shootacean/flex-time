@@ -5,6 +5,8 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <div className='flex flex-col items-center justify-center min-h-screen p-4' data-theme="cupcake">
+      <App />
+    </div>
   </React.StrictMode>,
 )
